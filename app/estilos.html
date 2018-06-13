@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estilos</title>
+
+    <style> /*Estilos css*/
+        /*IDENTAR html CON ctrl + alt +l*/
+    /*nombre de id*/
+        #tablapaola{
+            /*propiedad: valorDeLaPropiedad*/
+            border-style: solid;
+            border-width: 4px;
+            border-color: #000000;
+        }
+    /*Mediante etiqueta*/
+        td,th{
+            border-style: solid;
+            border-width: 1px;
+            border-color: deeppink;
+        }
+
+        /*Mediante clases*/
+        .borde-cafe{
+            border-color: aquamarine;
+        }
+        .borde-rojo {
+            border-color: darkgoldenrod;
+        }
+        /*propiedad style, ver abajo*/
+    </style>
+
+    <link rel="stylesheet" href="estilos/estilos-generales.css">
+
+
+</head>
+<body>
+<table id="tablapaola">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+    <tr>
+        <td>Paola</td>
+        <td>Guamani</td>
+        <td>Edad</td>
+    </tr>
+    <tr>
+        <td>Paola</td>
+        <td>Guamani</td>
+        <td>Edad</td>
+    </tr>
+    <tr>
+        <td>Paola</td>
+        <td>Guamani</td>
+        <td>Edad</td>
+    </tr>
+</table>
+
+<table class="borde-cafe"
+       style="
+       border-color: darkorchid;
+       color: darkorchid">
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+    </tr>
+    <tr>
+        <td>Paola</td>
+        <td>Guamani</td>
+        <td>Edad</td>
+    </tr>
+    <tr>
+        <td>Paola</td>
+        <td>Guamani</td>
+        <td>Edad</td>
+    </tr>
+    <tr>
+        <td>Paola</td>
+        <td>Guamani</td>
+        <td>Edad</td>
+    </tr>
+</table>
+
+<h3>akjakjd</h3>
+
+<div id="contenido">
+    <button onclick="crearContenido()">Crear contendidpo</button>
+</div>
+
+<img id="imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlYCWBP8qIni9lVjY9lwGpgZSr5zyle6m3d3fcbjPZIqwx-uor" alt="ghsdjsffsd,fnc">
+
+<button onclick="cambiarImagen()">Cambiar imagen</button>
+<button onclick="cambiarBorderTabla()">Cambiar borde</button>
+
+
+<script src="js/inicio.js"></script>
+
+</body>
+</html>
