@@ -7,12 +7,12 @@
     <style> /*Estilos css*/
         /*IDENTAR html CON ctrl + alt +l*/
     /*nombre de id*/
-        #tablapaola{
-            /*propiedad: valorDeLaPropiedad*/
-            border-style: solid;
-            border-width: 4px;
-            border-color: #000000;
-        }
+        /*#tablapaola{*/
+            /*!*propiedad: valorDeLaPropiedad*!*/
+            /*border-style: solid;*/
+            /*border-width: 4px;*/
+            /*border-color: #000000;*/
+        /*}*/
     /*Mediante etiqueta*/
         td,th{
             border-style: solid;
@@ -25,7 +25,7 @@
             border-color: aquamarine;
         }
         .borde-rojo {
-            border-color: darkgoldenrod;
+            border-color: red;
         }
         /*propiedad style, ver abajo*/
     </style>
@@ -35,7 +35,7 @@
 
 </head>
 <body>
-<table id="tablapaola">
+<table id="tablapaola" border="5">
     <tr>
         <th>Nombre</th>
         <th>Apellido</th>
@@ -87,12 +87,12 @@
 <h3>akjakjd</h3>
 
 <div id="contenido">
-    <button onclick="crearContenido()">Crear contendidpo</button>
+    <button onmouseover="crearContenido()">Crear contendidpo</button>
 </div>
 
 <img id="imagen" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlYCWBP8qIni9lVjY9lwGpgZSr5zyle6m3d3fcbjPZIqwx-uor" alt="ghsdjsffsd,fnc">
 
-<button onclick="cambiarImagen()">Cambiar imagen</button>
+<button onmouseover="cambiarImagen()">Cambiar imagen</button>
 <button onclick="cambiarBorderTabla()">Cambiar borde</button>
 
 

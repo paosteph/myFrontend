@@ -12,13 +12,13 @@ const paola = new Usuario('PAOLA', 'GUAMANI', 'https://cocina-casera.com/wp-cont
 console.log('Usuario: ',paola);
 
 function cambiarImagen() {
-    const etiquetaImagen = document.getElementById('imagen');
+    const etiquetaImagen:any = document.getElementById('imagen');
     etiquetaImagen.src = paola.urlImagen;
 }
 
 function cambiarBorderTabla() {
     const etiquetaTabla: any = document.getElementById('tablapaola');
-    etiquetaTabla.class = etiquetaTabla.class + ' borde-rojo';
+    etiquetaTabla.className = 'borde-rojo';
 }
 
 function crearContenido() {

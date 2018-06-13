@@ -14,7 +14,7 @@ function cambiarImagen() {
 }
 function cambiarBorderTabla() {
     var etiquetaTabla = document.getElementById('tablapaola');
-    etiquetaTabla.class = etiquetaTabla.class + ' borde-rojo';
+    etiquetaTabla.className = 'borde-rojo';
 }
 function crearContenido() {
     var etiquetaContenedora = document.getElementById('contenido');
