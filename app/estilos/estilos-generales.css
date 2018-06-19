@@ -1,3 +1,54 @@
 .rojo{
     color: gray;
 }
+
+.titulo{
+    font-weight: bolder;
+    color: blue;
+    /*se puede setear estado final*/
+    animation-name: colores;
+    animation-duration: 8s;
+    animation-delay: 4s; /*retrasa inicio de animacion*/
+    animation-iteration-count: 3; /*num repeticiones ej: infinite*/
+    animation-direction: alternate; /*q empiece por la ultima u otra*/
+    animation-timing-function: ease-in;/*determinar manera de velocidad de la animacion*/
+    /*-webkit-transition: font-size 2s; !*color 2s*!*/
+    /*transition: font-size 2s; !*color 2s*!*/
+}
+
+/*.titulo:hover{*/
+    /*color: greenyellow;*/
+    /*font-size: 5px;*/
+    /*cursor: pointer;*/
+/*}*/
+
+@keyframes colores {
+    0% {
+        background-color: red;
+        font-size: 15px;
+    }
+    40%{
+        background-color: yellow;
+        font-size: 45px;
+    }
+    100%{
+        background-color: blue;
+        font-size: 5px;
+    }
+}
+
+.azul{
+    color: blue;
+}
+.verde{
+    color: green;
+}
+.rosa{
+    color: deeppink;
+}
+.celeste{
+    color: #2098D1;
+}
+.violeta{
+    color: blueviolet;
+}
